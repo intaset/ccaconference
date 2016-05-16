@@ -81,22 +81,22 @@
 .ls-nav {
   overflow:hidden;
   clear:both;
-    border-bottom: 1px solid #C7D7DB;
+    border-bottom: 1px solid #4465A6;
 }
 .ls-nav a {
-  color: #C7D7DB;
+  color: #4465A6;
   padding: 10px 15px;  
   outline:0;
   border-right: 1px solid;
     font-family: 'Lato', sans-serif;
 }
 .ls-nav a:hover {
-  background: #C7D7DB;
+  background: #4465A6;
   color: #FFF;
   text-shadow: none;
 }
 .ls-nav .current a {
-  background: #C7D7DB;
+  background: #4465A6;
   color: #FFF;
 }
 .currentCrossLink {
