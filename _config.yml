@@ -1,0 +1,3 @@
+markdown: redcarpet
+baseurl: /ccaconference
+exclude: ['README.md',]
