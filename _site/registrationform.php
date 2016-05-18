@@ -112,7 +112,7 @@ mail($your_email,$your_subject,$message,$your_headers);
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="robots" content="noarchive">
 <meta name="description" content="">
-<meta name="keywords" content="">
+<meta name="keywords" content="cloud services, iaas, paas, saas, cloud infrastructures, cloud computing, storage, data architectures, distributed networking, computing, cloud management, cloud operations, security and privary, performance, scalability, reliability, virtualization, cloud data analytics, big data management, big data analysis, cloud software, hardware, cloud applications, social clouds systems, mobile clouds systems, cloud economics">
 <title>CCA'17 - Registration Form Filled!</title>
 
 <meta name="handheldfriendly" content="true">
@@ -410,9 +410,9 @@ mail($your_email,$your_subject,$message,$your_headers);
 </footer> 
 
 <div class="copyright">
-  <a href="international-aset.com">International ASET Inc.</a> | <a href="http://international-aset.com/phplistpublic/?p=subscribe&id=1">Subscribe</a> | <a href="../terms">Terms of Use</a> | <a href="../sitemap">Sitemap</a>
+  <a href="http://international-aset.com">International ASET Inc.</a> | <a href="http://http://international-aset.com/phplistpublic/?p=subscribe&id=1">Subscribe</a> | <a href="../terms">Terms of Use</a> | <a href="../sitemap">Sitemap</a>
   <p class="body">&copy; Copyright International ASET Inc., 2016. All rights reserved.</p>
-  <p class="copyright1">Have any feedback? Please provide them here: <script>var refURL = window.location.protocol + "//" + window.location.host + window.location.pathname; document.write('<a href="http://international-aset.com/feedback/?refURL=' + refURL+'" class="body-link">Feedback</a>');</script></p>
+  <p class="copyright1">Have any feedback? Please provide them here: <script>var refURL = window.location.protocol + "//" + window.location.host + window.location.pathname; document.write('<a href="http://http://international-aset.com/feedback/?refURL=' + refURL+'" class="body-link">Feedback</a>');</script></p>
 </div>
 </div>
 
