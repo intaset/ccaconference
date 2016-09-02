@@ -1855,7 +1855,8 @@ footer {
 		background-color: rgba(0,0,0,0.65);
 		position: relative;
 		text-align: center;
-		padding: 59px 0;
+		padding: 22px 0;
+    min-height: 360px;
 	}
 
 			.flex-img {
@@ -1871,7 +1872,7 @@ footer {
 		background-color: rgba(0,0,0,0.65);
 		position: relative;
 		text-align: center;
-		padding: 57px 0;
+		padding: 24px 0;
 		}
 					.flex-img {
   max-height: 366px;
@@ -1985,7 +1986,8 @@ footer form {
 		background-color: rgba(0,0,0,0.65);
 		position: relative;
 		text-align: center;
-		padding: 72px 0;
+		padding: 36px 0;
+    min-height: 366px;
 	}
 
 			.flex-img {
@@ -2001,7 +2003,7 @@ footer form {
 		background-color: rgba(0,0,0,0.7);
 		position: relative;
 		text-align: center;
-		padding: 57px 0;
+		padding: 23px 0;
 		}
 					.flex-img {
   max-height: 366px;
@@ -2030,6 +2032,19 @@ footer form {
 .reg {
   font-weight: 600;
 }
+.bg {
+    min-height: 393px;
+	}
+
+	@-moz-document url-prefix() {
+		.bg {
+			background-color: rgba(0,0,0,0.7);
+		position: relative;
+		text-align: center;
+		padding: 23px 0;
+		min-height: 366px;
+		}
+	}
 }
 
 /* 1366 PX */

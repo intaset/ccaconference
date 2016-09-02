@@ -209,6 +209,7 @@ mail($my_email,$subject,$message,$headers);
   </div>
 </div>
 </div>
+<br><p class="body" style="text-align:center!important;">CCA'17 is part of the <b>3<sup>rd</sup> World Congress on Electrical Engineering and Computer Systems and Science (EECSS'17)</b>. For more information about the congress, please visit the website here: <a href="http://2017.eecss.org/" class="body-link">www.2017.eecss.org</a>.</p>
         </div>
     </div>
 
@@ -235,6 +236,7 @@ mail($my_email,$subject,$message,$headers);
   </div>
 </div>
 </div>
+<br><p class="body" style="text-align:center!important; color: #FFF!important;">CCA'17 is part of the <b>3<sup>rd</sup> World Congress on Electrical Engineering and Computer Systems and Science (EECSS'17)</b>.<br>For more information about the congress, please visit the website here: <a href="http://2017.eecss.org/" class="body-link">www.2017.eecss.org</a>.</p>
         </div>
         </div> 
       </div>
