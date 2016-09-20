@@ -1120,11 +1120,11 @@ footer {
 /* 768 PX */
 @media only screen and (min-width: 48em) {
 .topics li {
-  padding-bottom: 0;
-  list-style-type: disc;
+    padding-bottom: 0;
+    list-style-type: disc;
     list-style-position: inside;
-    padding: 0px 0 0px 20px;
-    text-indent: -1em;
+    padding: 0px 0 0px 25px;
+    text-indent: -2em;
 }
 
 .topics {
