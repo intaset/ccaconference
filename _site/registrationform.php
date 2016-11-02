@@ -185,7 +185,7 @@ mail($your_email,$your_subject,$message,$your_headers);
 </div>
         <div class="bg">
           <h1>International Conference on Cloud<br>Computing and Applications (CCA'17)</h1>
-          <p class="subhead">June 5 - 6, 2017 | Rome, Italy</p>
+          <p class="subhead">June 4 - 6, 2017 | Rome, Italy</p>
 
           <a href="../papers" class="bg-link">Paper Submission</a> <p class="dot">&middot;</p> <a href="../dates" class="bg-link">Important Dates</a> <p class="dot">&middot;</p> <a href="../registration" class="bg-link">Registration</a>
 
@@ -212,7 +212,7 @@ mail($your_email,$your_subject,$message,$your_headers);
 
         <div class="bg">
           <h1>International Conference on Cloud<br>Computing and Applications (CCA'17)</h1>
-          <p class="subhead">June 5 - 6, 2017 | Rome, Italy</p>
+          <p class="subhead">June 4 - 6, 2017 | Rome, Italy</p>
 
           <a href="../papers" class="bg-link">Paper Submission</a> <p class="dot">&middot;</p> <a href="../dates" class="bg-link">Important Dates</a> <p class="dot">&middot;</p> <a href="../registration" class="bg-link">Registration</a>
 
@@ -241,7 +241,20 @@ mail($your_email,$your_subject,$message,$your_headers);
     <div>
       <h2 class="title">1</h2>
       <p class="bold">CCA 2017:</p>
-      <p class="body">CCA 2017 will  be held in Rome, Italy on June 5 - 6, 2017.</p>
+      <p class="body">CCA 2017 will  be held in Rome, Italy on June 4 - 6, 2017.</p>
+
+      <p class="bold">EECSS'17 Workshop</p>
+      <p class="body">As per popular request, the organizing committee has decided to extend the EECSS'17 congress to three days (now June 4 - 6, 2017). The new high-level schedule is as follows:</p>
+
+      <ul>
+        <li>Day 1: Workshop(s) and Registration</li>
+        <li>Day 2: Main Track Conference Sessions</li>
+        <li>Day 2: Main Track Conference Sessions and Gala dinner or Cruise tour</li>
+      </ul>
+      
+      <p class="body">Registration for the workshop will be 121 EURs (VAT included) and separate from the main conferences. Workshop attendees will receive a certificate of participation. For registration, please visit: <a href="../registration" class="body-link">here</a>.</p>
+
+      <p class="body">More information to follow; we greatly appreciate your patience!</p>
 <!-- 
       <p class="bold">Poster Board Dimensions:</p>
       <p class="body">Authors presenting via poster boards are to be informed that poster boards are 110 cm height and 80 cm width.</p> -->
