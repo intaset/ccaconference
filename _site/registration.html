@@ -301,84 +301,38 @@ Please visit <a href="http://vistoperitalia.esteri.it/home/en" class="body-link"
 
     <p class="body"><i>Please note:</i> If the registration has been done on behalf of another person, the person attending the conference should fill out this form.</p>
 
-    <form action="../registrationform.php" method="post" enctype="multipart/form-data" name="ContactForm" class="registration">
+    <h2>Registration Form</h2>
+    
+    <form action="../registrationform.php" name="registration" method="post" enctype="multipart/form-data" class="registration">
 
-  <table width="649" border="0">
-    <tbody>
-        <tr>
-            <td width="306">Title:<font color="#FF0000">*</font>
-            </td>
-
-            <td width="333"><span id="spryselect1">
-            <label>
-                <select name="Title" id="Title">
+    <label for="title">Title:<span class="asterik">*</span></label>
+    <select name="title" id="title">
                 <option selected="" disabled="">--</option>
                 <option>Dr.</option>
                 <option>Mr.</option>
                 <option>Ms.</option>
                 </select>
-            </label>
-            </span></td>
-        </tr>
 
-        <tr>
-            <td>First Name: <font color="#FF0000">*</font></td>
+    <label for="First_Name">First Name:<span class="asterik">*</span></label>
+    <input type="text" name="First_Name" id="First_Name" placeholder="John"/>
 
-            <td><span id="sprytextfield9">
-            <label>
-              <input name="First Name" type="text" id="First Name" size="45" autocomplete="off">
-            </label>
-            <span class="textfieldRequiredMsg"><br>
-            A name is required.</span></span></td>
-        </tr>
+    <label for="Last_Name">Last Name:<span class="asterik">*</span></label>
+    <input type="text" name="Last_Name" id="Last_Name" placeholder="Doe"/>
 
-        <tr>
-            <td>Last Name: <font color="#FF0000">*</font></td>
-            <td><span id="sprytextfield10">
-            <label>
-              <input name="Last Name" type="text" id="Last Name" size="45" autocomplete="off">
-            </label>
-            <span class="textfieldRequiredMsg"><br>
-            A name is required.</span></span></td>
-        </tr>
+    <label for="affiliation">Affiliation:<span class="asterik">*</span></label>
+    <input type="text" name="affiliation" id="affiliation" placeholder="University of Ottawa"/>
 
-        <tr>
-          <td>Affiliation: <font color="#FF0000">*</font></td>
-          <td><span id="sprytextfield8">
-            <label>
-              <input name="Affiliation" type="text" id="Affiliation" size="45" autocomplete="off">
-            </label>
-            </span></td>
-        </tr>
+    <label for="department">Department:</label>
+    <input type="text" name="department" id="department" placeholder="Department of Chemical Engineering"/>
 
-        <tr>
-          <td>Department:</font></td>
-          <td><label>
-            <input name="Department" type="text" id="Department" size="45">
-          </label></td>
-        </tr>
+    <label for="address">Address:<span class="asterik">*</span></label>
+    <input type="text" name="address" id="address" placeholder="75 Laurier Ave E"/>
 
-        <tr>
-          <td>Address: <font color="#FF0000">*</font></td>
-            <td><span id="sprytextfield4">
-            <label>
-              <input name="Address" type="text" id="Address" size="45" autocomplete="off">
-            </label>
-            </span></td>
-        </tr>
+    <label for="city">City:</label>
+    <input type="text" name="city" id="city" placeholder="Ottawa, ON"/>
 
-        <tr>
-          <td>City:</td>
-          <td><label>
-            <input name="City" type="text" id="City" size="45">
-          </label></td>
-        </tr>
-
-        <tr>
-          <td>Country: <font color="#FF0000">*</font></td>
-          <td><span id="spryselect2">
-            <label>
-              <select name="Country" id="Country">
+    <label for="country">Country:<span class="asterik">*</span></label>
+    <select name="country" id="country">
                 <option value="" selected="selected" disabled="">
                 Please Select a Country</option>
                 <option value="Afghanistan">Afghanistan</option>
@@ -791,165 +745,89 @@ Please visit <a href="http://vistoperitalia.esteri.it/home/en" class="body-link"
 
             <option value="Zimbabwe">Zimbabwe</option>
           </select>
-            </label><br></span></td>
-        </tr>
 
-        <tr>
-          <td>Postal Code:</td>
-          <td><label>
-            <input name="Postal Code" type="text" id="Postal Code" size="45">
-          </label></td>
-        </tr>
+    <label for="Postal_Code">Postal Code:</label>
+    <input type="text" name="Postal_Code" id="Postal_Code" placeholder="K1N 6N5"/>
 
-        <tr>
-          <td>Telephone:</td>
-          <td><label>
-            <input name="Telephone" type="text" id="Telephone" size="23">
-          </label></td>
-        </tr>
+    <label for="telephone">Telephone:</label>
+    <input type="number" name="telephone" id="telephone" placeholder="+1 (613) 555 - 555"/>
 
-        <tr>
-          <td>Email: <font color="#FF0000">*</font></td>
-          <td><span id="sprytextfield7">
-          <label>
-            <input name="Email" type="text" id="Email" size="45" autocomplete="off">
-          </label>
-          <span class="textfieldInvalidFormatMsg">Invalid format.</span></span></td>
-        </tr>
+    <label for="email">Email:<span class="asterik">*</span></label>
+    <input type="email" name="email" id="email" placeholder="john@doe.com"/>
 
-        <tr>
-            <td>
-            Confirm Email:<font color="#FF0000"> *</font>
-            </td>
-            <td><span id="spryconfirm1">
-                <input name="Confirm Email" type="text" id="Confirm Email">
-                </span>
-            </td>
-        </tr>
-
-        <tr>
-          <td>Would you be interested in being a session chair? 
-            <font color="#FF0000">*</font></td>
-          <td><span id="spryselect11">
-            <label>
-              <select name="Would you be interested in being a session chair?" id="Would you be interested in being a session chair?">
+    <label for="Session_Chair">Would you be interested in being a session chair?<span class="asterik">*</span></label>
+    <select name="Session_Chair" id="Session_Chair">
                 <option selected="" disabled="">--</option>
-                <option>No</option>
                 <option>Yes</option>
-              </select>
-            </label>
-            <span class="selectInvalidMsg">Please select a valid item.</span></span></td>
-        </tr>
+                <option>No</option>
+                </select>
 
-        <tr>
-          <td>Student Registration: 
-            <font color="#FF0000">*</font></td>
-          <td><span id="spryselect3">
-            <label>
-              <select name="Student Registration" id="Student Registration">
+    <label for="student">Are you a student?<span class="asterik">*</span></label>
+    <select name="student" id="student">
                 <option selected="" disabled="">--</option>
-                <option>No</option>
                 <option>Yes</option>
-              </select>
-            </label>
-            <span class="selectInvalidMsg">Please select a valid item.</span></span></td>
-        </tr>
+                <option>No</option>
+                </select>
 
-        <tr>
-          <td>Date of Payment Transaction: 
-            <font color="#FF0000">*</font></td>
-          <td><span id="sprytextfield6">
-          <label>
-            <input name="Date of Transaction" type="text" id="Date of Transaction" value="MM/DD/YYYY" size="12" maxlength="10" autocomplete="off">  
-          </label>
-          <span class="textfieldRequiredMsg">A value is required.</span><span class="textfieldInvalidFormatMsg">Invalid format (MM/DD/YYYY).</span></span></td>
-        </tr>
+    <label for="Date_of_Payment_Transaction">Date of Payment Transaction:<span class="asterik">*</span></label>
+    <input type="date" name="Date_of_Payment_Transaction" id="Date_of_Payment_Transaction" placeholder="MM/DD/YEAR"/>
 
-        <tr>
-          <td>Please upload a copy of your receipt:<font color="#FF0000"> *</font><br>
-            (Only Image Files are Permitted)
-            </td>
-          <td valign="top"><input name="file" type="file" id="file" size="33"></td>
-        </tr>
+    <label for="file">Please upload a copy of your receipt:<span class="asterik">*</span><br><i>Only image files are permitted</i></label>
+    <input name="file" type="file" id="file" size="33">
 
-        <tr>
-          <td>Paper ID(s):</td>
-          <td><label>
-            <input name="Paper ID(s)" type="text" id="Paper ID(s)" value="If Applicable" size="45">
-            </label></td>
-        </tr>
+    <label for="Paper_ID">Paper ID(s):</label>
+    <input type="text" name="Paper_ID" id="Paper_ID" placeholder="142"/>
 
-        <tr>
-          <td valign="top">Preferred Mode of Presentation(s):
-          </td>
-          <td valign="top"><label>
-            <textarea name="Preferred Mode of Presentation(s)" id="Preferred Mode of Presentation(s)" cols="40" rows="5">(Ex. Paper#1: ORAL, Paper#2: POSTER) The paper numbers are assigned to your submissions by the OpenConf system. If You are not an Author, Please Leave this Field Blank.</textarea>
-         </label></td>
-        </tr>
-    </tbody></table>
-    <br>
-<div id="regrequest" style="text-align:center;">
-    <p align="center" style="font-weight:bold">Request for Official Registration Documents</p>
+    <label for="Preferred_Mode_of_Presentation(s)">Preferred Mode of Presentation(s):</label>
+    <input type="text" name="Preferred_Mode_of_Presentation(s)" id="Preferred_Mode_of_Presentation(s)" placeholder="(Ex. Paper ID 142: ORAL, Paper ID 143: POSTER) The paper numbers are assigned to your submissions by the OpenConf system. If You are not an Author, Please Leave this Field Blank."/>
 
-    Do you need an official Paper Acceptance Letter?<font color="#FF0000">* </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      
-    <label>
-        <select name="Do you need an official Paper Acceptance Letter?" id="Do you need an official Paper Acceptance Letter?">
-          <option selected="">No</option>
-          <option>Yes</option>
-        </select>
-    </label>
-    <br>
+    <div class="registrationDocuments"><p class="bold">Request for Official Registration Documents</p>
 
-    Do you need an official Invitation Letter?<font color="#FF0000">*</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <label>
-        <select name="Do you need an official Invitation Letter?" id="Do you need an official Invitation Letter?">
-          <option selected="">No</option>
-          <option>Yes</option>
-        </select>
-      </label>
-     <br>
+    <label for="Do_you_need_an_official_Paper_Acceptance_Letter">Do you need an official Letter of Paper Acceptance?<span class="asterik">*</span></label>
+    <select name="Do_you_need_an_official_Paper_Acceptance_Letter" id="Do_you_need_an_official_Paper_Acceptance_Letter">
+                <option selected="" disabled="">--</option>
+                <option>Yes</option>
+                <option>No</option>
+                </select>
 
-    Do you need an official Registration Receipt?<font color="#FF0000">* </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <label>
-        <select name="Do you need an official Registration Receipt?" id="Do you need an official Registration Receipt?">
-          <option selected="">No</option>
-          <option>Yes</option>
-        </select>
-      </label>
+    <label for="Do_you_need_an_official_Invitation_Letter">Do you need an official Invitation Letter?<span class="asterik">*</span></label>
+    <select name="Do_you_need_an_official_Invitation_Letter" id="Do_you_need_an_official_Invitation_Letter">
+                <option selected="" disabled="">--</option>
+                <option>Yes</option>
+                <option>No</option>
+                </select>
+
+    <label for="Do_you_need_an_official_Paid_Invoice">Do you need an official Paid Invoice?<span class="asterik">*</span></label>
+    <select name="Do_you_need_an_official_Paid_Invoice" id="Do_you_need_an_official_Paid_Invoice">
+                <option selected="" disabled="">--</option>
+                <option>Yes</option>
+                <option>No</option>
+                </select>
+
+    <label for="Do_you_need_an_official_Certificate_of_Attendance">Do you need an official Certificate of Attendance?<span class="asterik">*</span><br><i>Please be aware that the certificate will not be provided until the end of the conference.</i></label>
+    <select name="Do_you_need_an_official_Certificate_of_Attendance" id="Do_you_need_an_official_Certificate_of_Attendance">
+                <option selected="" disabled="">--</option>
+                <option>Yes</option>
+                <option>No</option>
+                </select>
+
     </div>
-<br>
-    <table width="649" border="0" class="registration"> 
-    <tbody>
-    <tr>
-      <td valign="top" style="text-align:left">Additional Information or Comments:</td>
 
-      <td valign="top"><label>
-        <textarea name="Comments" id="Comments" cols="35" rows="5"></textarea>
-      </label></td>
-    </tr>
+    <label for="comments">Additional Information or Comments:</label>
+    <textarea name="comments" id="comments" cols="35" rows="5" placeholder="Here you can specify your dietary preference, i.e. vegetarian, no pork, etc. You can also specify any details you want for us to include in the paid invoice. For example, if you want us to specify a different affiliation as opposed to the one provided in the form."></textarea>
 
-    <tr>
-      <td valign="top">Terms and Regulations:</td>
-      <td valign="top"><label>
-        <textarea name="Terms and Regulations" cols="35" rows="9" readonly="" id="Terms and Regulations">Please note the following: 1. Prices are in EUROS. 2. The registration fee is VAT included. 3. For students registering at the conference, student identification will be required at the registration desk. 4. Registration fees are not refundable under any circumstances.</textarea>
-      </label></td>
-    </tr>
+    <label for="Terms_and_Regulations">Terms and Regulations:</label>
+    <textarea name="Terms_and_Regulations" cols="35" rows="9" readonly="" id="Terms_and_Regulations">Please note the following: 1. Prices are in EUROS. 2. The registration fee is VAT included. 3. For students registering at the conference, student identification will be required at the registration desk. 4. Registration fees are not refundable under any circumstances.</textarea>
 
-    <tr>
-      <td>Registrant Agreement:<font color="#FF0000"> *</font></td>
-      <td><span id="sprycheckbox1">
-        <label>
-        <input name="I have Read and Agreed to the Terms and Regulations" type="checkbox" id="I have Read and Agreed to the Terms and Regulations" value="Checked">
-        I have Read and Agreed to the Terms and Regulations
-        </label><br><span class="checkboxRequiredMsg">Please agree to the terms.</span></span></td>
-    </tr>
-  </tbody></table>
+    <label for="Registrant_Agreement">Registrant Agreement:<span class="asterik">*</span></label>
+    <input name="Registrant_Agreement" type="checkbox" id="Registrant_Agreement" value="checked"><p class="body">I have Read and Agreed to the Terms and Regulations</p>
 
     <center>
-      <input type="submit" name="Submit" value="Submit" accept="image/jpeg">
-        <input type="reset" name="Reset" value="Reset"></center>
-</form>
+      <input type="submit" accept="image/jpeg" value="Register"></input>
+      <input type="reset" name="Reset" value="Reset">
+    </center>
+
+  </form>
   </div>
   </div>
 
@@ -1095,6 +973,8 @@ Please visit <a href="http://vistoperitalia.esteri.it/home/en" class="body-link"
 </div>
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+  <script src="../js/form-validation.js"></script>
   <script type="text/javascript" src="../js/jquery.calendario.js"></script>
     <script type="text/javascript" src="../js/data.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>

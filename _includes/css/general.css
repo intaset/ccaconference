@@ -827,14 +827,80 @@ textarea {
 }
 
 /* REGISTRATION FORM */
-button, input, select, textarea {
-  font-family: inherit;
-  font-size: 100%;
-  margin: 0;
+.registration label {
+	width: 35%;
+    display: inline-block;
+    padding: 0.5em 0;
+    vertical-align: middle;
 }
 
-.registration tr {
-	border-bottom: 0;
+.registration label:first-child {
+    padding: 0em 0 0.5em;
+}
+
+.registration select,
+.registration input,
+.registration textarea {
+    width: 64%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.registration textarea {
+	margin-bottom: 0.5em;
+}
+
+#Terms_and_Regulations {
+    background: #e1e1e1;
+}
+
+.registrationDocuments {
+	text-align: center;
+	padding: 1em 0;
+}
+
+.registrationDocuments label,
+.registrationDocuments select {
+	width: 100%;
+}
+
+#title-error,
+#First_Name-error,
+#Last_Name-error,
+#affiliation-error,
+#address-error,
+#country-error,
+#email-error,
+#Date_of_Payment_Transaction-error, 
+#student-error,
+#file-error,
+#Do_you_need_an_official_Paper_Acceptance_Letter-error,
+#Do_you_need_an_official_Invitation_Letter-error,
+#Do_you_need_an_official_Registration_Receipt-error,
+#Do_you_need_an_official_Certificate_of_Attendance-error,
+#Do_you_need_an_official_Paid_Invoice-error,
+#Registrant_Agreement-error,
+#Session_Chair-error
+ {
+    display: block;
+    width: 100%;
+    color: red;
+    padding: 0;
+}
+
+.asterik {
+	color: red;
+}
+
+.registration .body {
+	display: inline-block;
+	vertical-align: text-top;
+}
+
+#Registrant_Agreement {
+    display: inline-block;
+    width: 5%;
+    vertical-align: middle;
 }
 
 input[type="button"], input[type="reset"], input[type="submit"] {
