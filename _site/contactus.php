@@ -353,8 +353,8 @@ mail($my_email,$subject,$message,$headers);
 
 <div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
   <div class="unit-spacer">
-     <div class="past past-text">Final Version of Extended Abstract or Paper Submission Deadline</div> 
-     Extended Final Version of Extended Abstract or Paper Submission Deadline
+     <div class="past past-text">Final Version of Accepted Submissions Deadline</div> 
+     Final Version of Accepted Submissions Deadline
   </div>
 </div>
 </div>
@@ -435,7 +435,7 @@ mail($my_email,$subject,$message,$headers);
 
 <div class="copyright">
   <a href="http://international-aset.com">International ASET Inc.</a> | <a href="http://http://international-aset.com/phplistpublic/?p=subscribe&id=1">Subscribe</a> | <a href="../terms">Terms of Use</a> | <a href="../sitemap">Sitemap</a>
-  <p class="body">&copy; Copyright International ASET Inc., 2016. All rights reserved.</p>
+  <p class="body">© Copyright <script>document.write(new Date().getFullYear())</script>, International ASET Inc. – All Rights Reserved.</p>
   <p class="copyright1">Have any feedback? Please provide them here: <script>var refURL = window.location.protocol + "//" + window.location.host + window.location.pathname; document.write('<a href="http://http://international-aset.com/feedback/?refURL=' + refURL+'" class="body-link">Feedback</a>');</script></p>
 </div>
 </div>
