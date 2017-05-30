@@ -2143,6 +2143,42 @@ footer form {
   font-size: 0.95em!important;
 }
 }
+
+/*contact us */
+.half {
+  float: left;
+  width: 48%;
+  margin-bottom: 1em;
+}
+
+.right { width: 50%; }
+
+.left {
+     margin-right: 2%; 
+}
+
+.full { width: 100%; }
+
+@media (max-width: 600px) {
+  .half {
+     width: 100%; 
+     float: none;
+     margin-bottom: 0; 
+  }
+}
+
+
+/* Clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
 .grid {
   letter-spacing: -0.31em;
   *letter-spacing: normal;
