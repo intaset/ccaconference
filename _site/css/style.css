@@ -1702,17 +1702,16 @@ right: 180px;
 	h2 {
 	  font-size: 1.25em;
 	}
-.left {
-     margin-right: 2%;
-	 padding-bottom: 12px;
-}
 
 	.panel-wrapper {  
 	  padding: 1em 2em!important;
 	}
-
 	.mob-link {
   font-size: inherit;
+}
+.left {
+     margin-right: 2%;
+	 padding-bottom: 12px;
 }
 
 nav#slide-menu {
@@ -2148,7 +2147,13 @@ footer form {
 }
 }
 
-/*contact us */
+/* 1600 PX */
+@media only screen and (min-width: 100em) {
+	.cbp-af-header nav a {
+  font-size: 1em!important;
+}
+}
+/*contact us*/
 .half {
   float: left;
   width: 48%;
