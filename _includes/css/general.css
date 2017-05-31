@@ -1042,6 +1042,10 @@ right: 180px;
 	h2 {
 	  font-size: 1.25em;
 	}
+.left {
+     margin-right: 2%;
+	 padding-bottom: 12px;
+}
 
 	.panel-wrapper {  
 	  padding: 1em 2em!important;
